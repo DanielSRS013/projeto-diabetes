@@ -32,7 +32,6 @@ Aqui, uni análise estatística com modelagem preditiva para trabalhar um proble
 - Avaliação com métricas:
   - Acurácia (~80% em todos os modelos)
   - Matriz de confusão
-  - Curva ROC (para modelos probabilísticos)
 
 ---
 
