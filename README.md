@@ -72,15 +72,21 @@ Os dados utilizados neste projeto são provenientes de [origem dos dados, exempl
    ```bash
    git clone https://github.com/DanielSRS013/projeto-diabetes.git
    cd projeto-diabetes
+   
 2. (Opcional) Crie um ambiente virtual:
+   ```bash
      python -m venv venv
     # Para Linux/macOS:
     source venv/bin/activate
     # Para Windows:
     venv\Scripts\activate
+   
 3. Instale as dependências:
+   ```bash
    pip install -r requirements.txt
-4. Execute o Jupyter Notebook:
+   
+5. Execute o Jupyter Notebook:
+   ```bash
    jupyter notebook projeto_diabetes.ipynb
 
 
