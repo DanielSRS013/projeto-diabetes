@@ -13,7 +13,6 @@ Este projeto tem como objetivo analisar dados de saúde de pacientes e prever a 
 - [Como Executar](#-como-executar)
 - [Exemplos de Resultados](#-exemplos-de-resultados)
 - [Autor](#-autor)
-- [Licença](#-licença)
 
 ---
 
