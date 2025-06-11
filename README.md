@@ -4,9 +4,22 @@ Este projeto tem como objetivo analisar dados de saúde de pacientes e prever a 
 
 ---
 
+## 📚 Sumário
+
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Etapas do Projeto](#-etapas-do-projeto)
+- [Sobre os Dados](#-sobre-os-dados)
+- [Tecnologias e Ferramentas](#-tecnologias-e-ferramentas)
+- [Como Executar](#-como-executar)
+- [Exemplos de Resultados](#-exemplos-de-resultados)
+- [Autor](#-autor)
+- [Licença](#-licença)
+
+---
+
 ## 📌 Sobre o Projeto
 
-Durante minha jornada de aprendizado em Ciência de Dados, realizei este projeto como forma de consolidar os conhecimentos adquiridos no curso **"Estatística com Python: frequências e medidas" da Alura**. 
+Durante minha jornada de aprendizado em Ciência de Dados, realizei este projeto como forma de consolidar os conhecimentos adquiridos no curso **"Estatística com Python: frequências e medidas" da Alura**.
 
 Aqui, uni análise estatística com modelagem preditiva para trabalhar um problema real de saúde pública: a **predição de diabetes** com base em variáveis clínicas.
 
@@ -35,6 +48,13 @@ Aqui, uni análise estatística com modelagem preditiva para trabalhar um proble
 
 ---
 
+## 📂 Sobre os Dados
+
+Os dados utilizados neste projeto são provenientes de [origem dos dados, exemplo: Kaggle, UCI, etc]. Eles incluem variáveis clínicas como idade, IMC, pressão arterial, entre outras.  
+> Caso os dados estejam incluídos no repositório, informe o nome do arquivo. Se não, adicione o link para download.
+
+---
+
 ## 🧠 Tecnologias e Ferramentas
 
 - Python 3.11
@@ -49,25 +69,20 @@ Aqui, uni análise estatística com modelagem preditiva para trabalhar um proble
 ## 🧪 Como Executar
 
 1. Clone o repositório:
-
-```bash
-git clone https://github.com/seuusuario/projeto-diabetes.git
-cd projeto-diabetes
-
-2. Crie um ambiente virtual (opcional, mas recomendado):
-
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-
+   ```bash
+   git clone https://github.com/DanielSRS013/projeto-diabetes.git
+   cd projeto-diabetes
+2. (Opcional) Crie um ambiente virtual:
+     python -m venv venv
+    # Para Linux/macOS:
+    source venv/bin/activate
+    # Para Windows:
+    venv\Scripts\activate
 3. Instale as dependências:
-
-pip install -r requirements.txt
-
+   pip install -r requirements.txt
 4. Execute o Jupyter Notebook:
+   jupyter notebook projeto_diabetes.ipynb
 
-jupyter notebook projeto_diabetes.ipynb
 
-🧑‍💻 Autor
+##👤 Autor
 Desenvolvido por Daniel Souza
-💼 LinkedIn: linkedin.com/in/daniel-souza-8b94b4252
